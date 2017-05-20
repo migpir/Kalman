@@ -9,16 +9,15 @@
 //             : May 18th, 2017
 //============================================================================
 
-#ifndef _Kalman_h_
-#define _Kalman_h_
-
 
 #include <iostream>
 using namespace std;
 
-class Kalman {
+class Update {
 public:
-	kalman();
+    float Kgain;
+private:
+	float Kgain_priv;
 };
 
 int main() {
